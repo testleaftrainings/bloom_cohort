@@ -5,3 +5,4 @@ pom.xml
 .classpath
 .idea/
 .settings
+.project
