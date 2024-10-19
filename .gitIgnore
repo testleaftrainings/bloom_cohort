@@ -1,6 +1,6 @@
-/src/test/
-/target/
-/test-output/
-/pom.xml
-/.classpath
-/.idea/
+src/test/
+target/
+test-output/
+pom.xml
+.classpath
+.idea/
