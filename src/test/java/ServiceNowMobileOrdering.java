@@ -1,5 +1,3 @@
-package sprint1.week1.classroom;
-
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
