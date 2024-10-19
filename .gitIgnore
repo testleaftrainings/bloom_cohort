@@ -4,3 +4,4 @@ test-output/
 pom.xml
 .classpath
 .idea/
+.settings/
