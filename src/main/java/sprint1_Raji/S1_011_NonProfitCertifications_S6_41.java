@@ -1,4 +1,4 @@
-package sprint1;
+package sprint1_Raji;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -55,7 +55,7 @@ public class S1_011_NonProfitCertifications_S6_41 {
             // Step 6: Click Bootcamp link 
     		 driver.findElement(By.xpath("//input[@name='Campaign-search-input']")).sendKeys("Bootcamp",Keys.ENTER);
     		 driver.findElement(By.xpath("//div[@data-aura-class=\"uiScroller\"]")).click();
-    		 driver.findElement(By.xpath("//a[@title=\"BootCamp\"]")).click();
+    		 driver.findElement(By.xpath("//a[@title=\"Bootcamp\"]")).click();
     		
 
             // Step 7: Click Add Leads 

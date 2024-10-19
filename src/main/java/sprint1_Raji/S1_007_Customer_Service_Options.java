@@ -1,4 +1,4 @@
-package sprint1;
+package sprint1_Raji;
 
 import static org.testng.Assert.assertEquals;
 

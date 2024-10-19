@@ -1,4 +1,4 @@
-package sprint1;
+package sprint1_Raji;
 
 import java.net.MalformedURLException;
 import java.net.URL;
