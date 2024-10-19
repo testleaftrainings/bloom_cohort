@@ -1,4 +1,4 @@
-package sprint1;
+package Sprint_01;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptException;
@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class S6_14_CreateOpportunity {
+public class Siva_S6_14_CreateOpportunity {
     ChromeDriver driver;
 
     @BeforeMethod

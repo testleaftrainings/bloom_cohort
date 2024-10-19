@@ -1,4 +1,4 @@
-package sprint1;
+package Sprint_01;
 
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class S6_54_CreateContactForCampaign {
+public class Siva_S6_54_CreateContactForCampaign {
     ChromeDriver driver = null;
     Faker faker = new Faker();
 

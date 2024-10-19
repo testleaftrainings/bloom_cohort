@@ -1,4 +1,4 @@
-package sprint1;
+package Sprint_01;
 
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class S6_45_EditOrder {
+public class Siva_S6_45_EditOrder {
 
 
 //    Test Steps:

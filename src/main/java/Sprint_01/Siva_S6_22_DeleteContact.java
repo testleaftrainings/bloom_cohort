@@ -1,4 +1,4 @@
-package sprint1;
+package Sprint_01;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.List;
 
-public class S6_22_DeleteContact {
+public class Siva_S6_22_DeleteContact {
 
     ChromeDriver driver;
 

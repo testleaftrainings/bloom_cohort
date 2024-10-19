@@ -1,4 +1,4 @@
-package sprint1;
+package Sprint_01;
 
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
@@ -15,7 +15,7 @@ import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class S6_46_CreateCampaign {
+public class Siva_S6_46_CreateCampaign {
 
 
     ChromeDriver driver = null;

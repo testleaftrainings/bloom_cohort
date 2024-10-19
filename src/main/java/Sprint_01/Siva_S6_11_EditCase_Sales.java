@@ -1,4 +1,4 @@
-package sprint1;
+package Sprint_01;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class S6_11_EditCase_Sales {
+public class Siva_S6_11_EditCase_Sales {
     @Test
     public void testEditCase() throws InterruptedException {
         ChromeOptions options = new ChromeOptions();

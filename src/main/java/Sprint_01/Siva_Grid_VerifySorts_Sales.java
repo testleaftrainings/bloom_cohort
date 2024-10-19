@@ -18,7 +18,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Grid_VerifySorts_Sales {
+public class Siva_Grid_VerifySorts_Sales {
 
     @Test
     public void test_VerifySorting() throws MalformedURLException {

@@ -1,4 +1,4 @@
-package sprint1;
+package Sprint_01;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptException;
@@ -13,7 +13,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class S6_4_VerifySorts_Sales {
+public class Siva_S6_4_VerifySorts_Sales {
 
     @Test
     public void test_VerifySorting() {
