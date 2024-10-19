@@ -1,4 +1,4 @@
-package sprint1_Raji;
+package Sprint_01.Raji;
 
 import java.time.Duration;
 
@@ -15,7 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class S1_004_DeleteWorkTypeGroup {
+public class RAJI_S1_004_DeleteWorkTypeGroup {
 	
 	//@Test
 	//public void createSalesforceAccount() {

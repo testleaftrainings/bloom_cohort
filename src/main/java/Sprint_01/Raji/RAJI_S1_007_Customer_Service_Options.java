@@ -1,4 +1,4 @@
-package sprint1_Raji;
+package Sprint_01.Raji;
 
 import static org.testng.Assert.assertEquals;
 
@@ -19,7 +19,7 @@ import org.testng.Assert;
 
 import io.github.sukgu.Shadow;
 
-public class S1_007_Customer_Service_Options {
+public class RAJI_S1_007_Customer_Service_Options {
 	
 	//@Test
 	//public void createSalesforceAccount() {

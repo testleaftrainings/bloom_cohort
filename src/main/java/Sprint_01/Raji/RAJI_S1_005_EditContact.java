@@ -1,4 +1,4 @@
-package sprint1_Raji;
+package Sprint_01.Raji;
 
 import java.time.Duration;
 import java.util.Iterator;
@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 
-public class S1_005_EditContact {
+public class RAJI_S1_005_EditContact {
 	
 public static void main(String[] args) throws InterruptedException {
 	    String UniqueName = null;

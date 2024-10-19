@@ -1,0 +1,5 @@
+resources/
+/test/
+/target/
+/test-output/
+/pom.xml/

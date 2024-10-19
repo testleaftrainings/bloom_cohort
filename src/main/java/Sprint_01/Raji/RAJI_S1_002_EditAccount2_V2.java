@@ -1,4 +1,4 @@
-package sprint1_Raji;
+package Sprint_01.Raji;
 
 import java.time.Duration;
 
@@ -14,9 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-
-
-public class S1_002_EditAccount2_V2 {
+public class RAJI_S1_002_EditAccount2_V2 {
 	
 	//@Test
 	//public void createSalesforceAccount() {

@@ -4,7 +4,7 @@
   <artifactId>sdet</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
-  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java RAJI-->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>

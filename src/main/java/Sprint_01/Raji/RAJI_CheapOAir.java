@@ -1,4 +1,4 @@
-package sprint1_Raji;
+package Sprint_01.Raji;
 
 /*
  * https://www.cheapoair.com/
@@ -23,7 +23,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class CheapOAir {
+public class RAJI_CheapOAir {
 
 	public static void main(String[] args) throws InterruptedException {
 		ChromeDriver driver = new ChromeDriver();

@@ -1,4 +1,4 @@
-package sprint1_Raji;
+package Sprint_01.Raji;
 
 import java.time.Duration;
 
@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class S1_006_CreateEditLegalEntity {
+public class RAJI_S1_006_CreateEditLegalEntity {
 	
 	//@Test
 	//public void createSalesforceAccount() {

@@ -1,4 +1,4 @@
-package sprint1_Raji;
+package Sprint_01.Raji;
 
 import java.time.Duration;
 
@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
-public class S1_003_CreateDeleteCase {
+public class RAJI_S1_003_CreateDeleteCase {
 	
 	//@Test
 	//public void createSalesforceAccount() {
