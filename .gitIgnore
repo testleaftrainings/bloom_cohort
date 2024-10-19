@@ -1,6 +1,5 @@
-resources/
 /test/
 /target/
 /test-output/
-/pom.xml/
-/.class/
+/pom.xml
+/.classpath
