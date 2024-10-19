@@ -3,3 +3,4 @@ resources/
 /target/
 /test-output/
 /pom.xml/
+/.class/
