@@ -15,13 +15,13 @@ import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class Siva_S6_46_CreateCampaign {
+public class Siva_S6_46_CreateCampaign extends BaseClass {
 
 
-    ChromeDriver driver = null;
+    //ChromeDriver driver = null;
     Faker faker = new Faker();
 
-    @BeforeMethod
+    /*@BeforeMethod
     public void Login() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
@@ -34,7 +34,7 @@ public class Siva_S6_46_CreateCampaign {
         driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
         driver.findElement(By.id("password")).sendKeys("Leaf$321");
         driver.findElement(By.id("Login")).click();
-    }
+    }*/
 
     @Test
     public void test() throws InterruptedException {
