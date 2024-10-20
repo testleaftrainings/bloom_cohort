@@ -88,12 +88,12 @@ public class Siva_S6_46_CreateCampaign extends BaseClass {
                 "//div[@role='alert']//div[starts-with(@id,'toast')]/span")));
         String toastMsg = toast.getText().trim();
         String expectedMsg = "Campaign \""+bootcamp+"\" was created.";
-        System.out.println("actual:");
+              System.out.println("actual:");
         System.out.println(toastMsg);
         System.out.println("expected:");
 
        Assert.assertEquals(toastMsg,expectedMsg);
-
+       Thread.sleep(2000);
 
     }
 }

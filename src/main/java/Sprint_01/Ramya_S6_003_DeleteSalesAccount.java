@@ -8,6 +8,7 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
@@ -39,11 +40,14 @@ public class Ramya_S6_003_DeleteSalesAccount extends BaseClass {
 		// Search the account 'Your Name'
 		try {
 			WebElement accountname = driver.findElement(By.xpath("//input[@name='Account-search-input']"));
-			accountname.sendKeys("Credits");
+			accountname.sendKeys("Credits",Keys.ENTER);
+			
+			
+			/*accountname.sendKeys("Credits");
 			Robot robo = new Robot();
 			robo.keyPress(KeyEvent.VK_ENTER);
 			robo.keyRelease(KeyEvent.VK_ENTER);
-			// accountname.click();
+			// accountname.click();*/
 		}
 
 		catch (ElementNotInteractableException e) {
