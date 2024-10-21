@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-20T16:38:42 IST" name="Default suite" finished-at="2024-10-20T16:39:25 IST" duration-ms="42423">
+  <suite started-at="2024-10-22T00:53:27 IST" name="Default suite" finished-at="2024-10-22T00:54:00 IST" duration-ms="32940">
     <groups>
     </groups>
-    <test started-at="2024-10-20T16:38:42 IST" name="Default test" finished-at="2024-10-20T16:39:25 IST" duration-ms="42423">
-      <class name="Sprint_01.Ramya_S6_003_DeleteSalesAccount">
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:Sprint_01.Ramya_S6_003_DeleteSalesAccount@5cee5251]" started-at="2024-10-20T16:38:42 IST" name="preCondition" finished-at="2024-10-20T16:39:01 IST" duration-ms="18484" status="PASS">
+    <test started-at="2024-10-22T00:53:27 IST" name="Default test" finished-at="2024-10-22T00:54:00 IST" duration-ms="32940">
+      <class name="Sprint_01.RAJI_S1_012_CreateNewTask_S6_61">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:Sprint_01.RAJI_S1_012_CreateNewTask_S6_61@1ed1993a]" started-at="2024-10-22T00:53:27 IST" name="preCondition" finished-at="2024-10-22T00:53:36 IST" duration-ms="8152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="dsa()[pri:0, instance:Sprint_01.Ramya_S6_003_DeleteSalesAccount@5cee5251]" started-at="2024-10-20T16:39:01 IST" name="dsa" finished-at="2024-10-20T16:39:24 IST" duration-ms="22962" status="PASS">
+        <test-method signature="createNewTask()[pri:0, instance:Sprint_01.RAJI_S1_012_CreateNewTask_S6_61@1ed1993a]" started-at="2024-10-22T00:53:36 IST" name="createNewTask" finished-at="2024-10-22T00:54:00 IST" duration-ms="24586" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dsa -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:Sprint_01.Ramya_S6_003_DeleteSalesAccount@5cee5251]" started-at="2024-10-20T16:39:24 IST" name="postCondition" finished-at="2024-10-20T16:39:25 IST" duration-ms="938" status="PASS">
+        </test-method> <!-- createNewTask -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:Sprint_01.RAJI_S1_012_CreateNewTask_S6_61@1ed1993a]" started-at="2024-10-22T00:54:00 IST" name="postCondition" finished-at="2024-10-22T00:54:00 IST" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- Sprint_01.Ramya_S6_003_DeleteSalesAccount -->
+      </class> <!-- Sprint_01.RAJI_S1_012_CreateNewTask_S6_61 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
