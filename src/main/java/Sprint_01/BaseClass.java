@@ -6,6 +6,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Platform;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -21,11 +22,27 @@ public class BaseClass {
 
 	    @BeforeMethod
 	    public void preCondition() throws MalformedURLException{
-	      DesiredCapabilities dc = new DesiredCapabilities();
+	     /* DesiredCapabilities dc = new DesiredCapabilities();
 	    	dc.setBrowserName("MicrosoftEdge");
 	    	dc.setPlatform(Platform.LINUX);   	       			
-	    	 driver = 	new RemoteWebDriver(new URL(" http://20.40.48.160:4444/wd/hub"), dc);
-	    	//ChromeDriver driver = new ChromeDriver();
+	        driver = new RemoteWebDriver(new URL(" http://20.40.48.160:4444/wd/hub"), dc);
+	    	//ChromeDriver driver = new ChromeDriver();*/
+	    	
+	    	// Set Remote WebDriver and Desired Capabilities for GRID Execution
+	    	// UI Console - http://20.40.48.160:4444/ui/#/sessions - click on Video - secret is the password
+	    	
+	    	// Set ChromeOptions
+	        ChromeOptions options = new ChromeOptions();
+	        options.addArguments("--disable-notifications");
+	         
+	    	DesiredCapabilities dc = new DesiredCapabilities();
+	    			dc.setBrowserName("chrome");
+	    			dc.setPlatform(Platform.LINUX);
+	    			dc.setCapability(ChromeOptions.CAPABILITY, options);
+	    		  //dc.merge(options);
+	    			driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), dc);
+
+	    	
 	    	driver.get(" https://login.salesforce.com/");             
 	        driver.manage().window().maximize();
 	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
