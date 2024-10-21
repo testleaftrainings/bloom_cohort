@@ -39,11 +39,11 @@ public  void createNewTask() throws InterruptedException {
 	//Step 4. Click on Content tab 				
 				driver.findElement(By.xpath("//p[text()='Content']")).click();
 				
-				Thread.sleep(1000);
+				Thread.sleep(2000);
 				
 	//Step 5. Click View All from Today's Task
 				driver.findElement(By.xpath("(//span[@class=\"viewAllLabel\"])[3]")).click();
-				Thread.sleep(1000);
+				Thread.sleep(2000);
 	//Step 6. Click on Show two more Action and click New Task
 				driver.findElement(By.xpath("//div[@class='leftRegion']//a[@title='Show 2 more actions']")).click();
 				driver.findElement(By.xpath("//a[@title='New Task']")).click();
