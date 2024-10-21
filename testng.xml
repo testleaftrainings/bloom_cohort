@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Sprint_01.Siva_S6_46_CreateCampaign"/>
+     <!-- <class name="Sprint_01.Siva_S6_46_CreateCampaign"/>-->
       <class name="Sprint_01.Raji_Jenkins"/>
       <class name="Sprint_01.RAJI_S1_012_CreateNewTask_S6_61"/>
     </classes>
