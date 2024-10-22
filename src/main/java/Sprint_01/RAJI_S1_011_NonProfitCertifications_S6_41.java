@@ -33,7 +33,7 @@ public class RAJI_S1_011_NonProfitCertifications_S6_41 {
 
 		// Step 2: Login to Salesforce Application
 		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-		driver.findElement(By.id("password")).sendKeys("Leaf$321");
+		driver.findElement(By.id("password")).sendKeys("Leaf@123");
 		driver.findElement(By.id("Login")).click();
 
 		// Step 3: Click on toggle menu button from the left corner

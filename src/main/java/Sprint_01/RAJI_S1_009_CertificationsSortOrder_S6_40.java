@@ -30,7 +30,7 @@ public class RAJI_S1_009_CertificationsSortOrder_S6_40 {
             
             // Step 2: Login to Salesforce Application
             driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-            driver.findElement(By.id("password")).sendKeys("Leaf$321");
+            driver.findElement(By.id("password")).sendKeys("Leaf@123");
             driver.findElement(By.id("Login")).click();
     
             // Step 3: Wait for page to load and click on the sliding icon until 'See System Status' is displayed.

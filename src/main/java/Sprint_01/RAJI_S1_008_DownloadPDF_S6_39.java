@@ -35,7 +35,7 @@ public class RAJI_S1_008_DownloadPDF_S6_39 {
 		
 		// Step 1: Login to Salesforce Application
 		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-		driver.findElement(By.id("password")).sendKeys("Leaf$321");
+		driver.findElement(By.id("password")).sendKeys("Leaf@123");
 		driver.findElement(By.id("Login")).click();
 
 		// Step 2: Click on the sliding icon until "View Release Notes" is displayed

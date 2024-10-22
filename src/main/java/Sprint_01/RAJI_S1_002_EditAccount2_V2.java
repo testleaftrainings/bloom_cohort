@@ -29,7 +29,7 @@ public class RAJI_S1_002_EditAccount2_V2 {
 		
 		//Step 1: Login to Salesforce Application
 		driver.navigate().to("https://login.salesforce.com");
-		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com",Keys.TAB,"Leaf$321",Keys.TAB,Keys.ENTER);
+		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com",Keys.TAB,"Leaf@123",Keys.TAB,Keys.ENTER);
 		
 		//Step 2: Click on toggle menu button from the left corner
 		WebElement launcher = driver.findElement(By.xpath("//div[@class='slds-icon-waffle']"));
