@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class RAJI_S1_013_CreateNewOrder_S6_59 {
+public class RAJI_S1_014_EditOrder_S6_60 {
 	
 public static void main(String[] args) throws InterruptedException {
 		
@@ -34,11 +34,11 @@ public static void main(String[] args) throws InterruptedException {
 				
 	//Step 4. Click on Service Console from App Launcher
 	//Step 5. Click on the drop down and select Orders
-	//Step 6. Click on New
-	//Step 7. Select Account name as Testleaf Software 
-	//Step 8. Contract number as 00000103
-	//Step 9. Status as Draft
+	//Step 6. Click drop down near Recently Viewed and Select All Orders
+	//Step 7. Select first result, click the dropdown of the result and click on Edit
+	//Step 8. Click on the close button form the Account Name Field and Select Account name as Testing001
+	//Step 9. Click on the close button form theContract Number field and select Contract number as 00000104
 	//Step 10.Select Order Start Date as next month 10th date
-	//Step 11. Click Save Expected Result: success - Order number was created.
+	//Step 11. Click Save Expected Result: New account name and respective Contract number should be saved
 
 }}

@@ -50,7 +50,7 @@ public class BaseClass {
 //	      driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 	        driver.get("https://login.salesforce.com/");
 	        driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-	        driver.findElement(By.id("password")).sendKeys("Leaf$321");
+	        driver.findElement(By.id("password")).sendKeys("Leaf@123");
 	        driver.findElement(By.id("Login")).click();
 	    }
 
