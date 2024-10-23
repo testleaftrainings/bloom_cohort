@@ -3,20 +3,18 @@ package Sprint_01;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
-public class RAJI_S1_013_CreateNewOrder_S6_59 {
+public class RAJI_S1_013_CreateNewOrder_S6_59 extends BaseClass {
+@Test
+	public void createNewOrder() throws InterruptedException {
 
-	public static void main(String[] args) throws InterruptedException {
-
-		ChromeOptions options = new ChromeOptions();
+		/*ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-notifications");
 
 		ChromeDriver driver = new ChromeDriver(options);
@@ -28,7 +26,7 @@ public class RAJI_S1_013_CreateNewOrder_S6_59 {
 		// Step 1: Login to Sales-force Application
 		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
 		driver.findElement(By.id("password")).sendKeys("Leaf@123");
-		driver.findElement(By.id("Login")).click();
+		driver.findElement(By.id("Login")).click();*/
 
 		// Step 2: Click on toggle menu button from the left corner
 		driver.findElement(By.xpath("//button[@title='App Launcher']/div[1]")).click();
