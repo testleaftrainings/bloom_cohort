@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-23T23:46:40 IST" name="Default suite" finished-at="2024-10-23T23:47:08 IST" duration-ms="27077">
+  <suite started-at="2024-10-24T00:00:03 IST" name="Default suite" finished-at="2024-10-24T00:00:36 IST" duration-ms="32291">
     <groups>
     </groups>
-    <test started-at="2024-10-23T23:46:40 IST" name="Default test" finished-at="2024-10-23T23:47:08 IST" duration-ms="27077">
-      <class name="Sprint_01.RAJI_S1_013_CreateNewOrder_S6_59">
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:Sprint_01.RAJI_S1_013_CreateNewOrder_S6_59@1ed1993a]" started-at="2024-10-23T23:46:40 IST" name="preCondition" finished-at="2024-10-23T23:46:47 IST" duration-ms="6852" status="PASS">
+    <test started-at="2024-10-24T00:00:03 IST" name="Default test" finished-at="2024-10-24T00:00:36 IST" duration-ms="32291">
+      <class name="Sprint_01.Raji_Jenkins">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:Sprint_01.Raji_Jenkins@1ed1993a]" started-at="2024-10-24T00:00:03 IST" name="preCondition" finished-at="2024-10-24T00:00:09 IST" duration-ms="5944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="createNewOrder()[pri:0, instance:Sprint_01.RAJI_S1_013_CreateNewOrder_S6_59@1ed1993a]" started-at="2024-10-23T23:46:47 IST" name="createNewOrder" finished-at="2024-10-23T23:47:07 IST" duration-ms="19823" status="PASS">
+        <test-method signature="npc()[pri:0, instance:Sprint_01.Raji_Jenkins@1ed1993a]" started-at="2024-10-24T00:00:09 IST" name="npc" finished-at="2024-10-24T00:00:35 IST" duration-ms="26074" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewOrder -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:Sprint_01.RAJI_S1_013_CreateNewOrder_S6_59@1ed1993a]" started-at="2024-10-23T23:47:07 IST" name="postCondition" finished-at="2024-10-23T23:47:08 IST" duration-ms="361" status="PASS">
+        </test-method> <!-- npc -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:Sprint_01.Raji_Jenkins@1ed1993a]" started-at="2024-10-24T00:00:35 IST" name="postCondition" finished-at="2024-10-24T00:00:36 IST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- Sprint_01.RAJI_S1_013_CreateNewOrder_S6_59 -->
+      </class> <!-- Sprint_01.Raji_Jenkins -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
