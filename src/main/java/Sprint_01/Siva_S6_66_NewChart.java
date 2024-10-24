@@ -1,7 +1,5 @@
 package Sprint_01;
 
-import com.github.javafaker.App;
-import org.checkerframework.checker.units.qual.A;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -15,11 +13,11 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Siva_S6_66_NewChart {
+public class Siva_S6_66_NewChart extends BaseClass {
 
-    ChromeDriver driver = null;
+//    ChromeDriver driver = null;
 
-    @BeforeMethod
+   /* @BeforeMethod
     public void Login() {
 
 
@@ -32,7 +30,7 @@ public class Siva_S6_66_NewChart {
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
         driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(20));
         launchUrl_And_Login(driver);
-    }
+    }*/
 
     public void launchUrl_And_Login(RemoteWebDriver driver) {
         driver.get("https://login.salesforce.com");
@@ -64,7 +62,7 @@ public class Siva_S6_66_NewChart {
         driver.findElement(By.xpath("//h2[text()='Charts']")).click();
         Thread.sleep(2000);
         WebElement dd = driver.findElement(By.xpath("(//span[.='Select Chart'])[1]/following::a[1]"));
-        new Actions(driver).moveToLocation(1042,328).pause(Duration.ofSeconds(10)).perform();
+        new Actions(driver).moveToElement(dd,0,90).pause(Duration.ofSeconds(10)).perform();
         Thread.sleep(2000);
 //            Get the Status & Priority
         try {
