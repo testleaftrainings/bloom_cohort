@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
@@ -11,10 +12,10 @@ import org.testng.annotations.Test;
 
 public class RAJI_S1_012_CreateNewTask_S6_61 extends BaseClass {
 
- @Test
-public  void createNewTask() throws InterruptedException {
+	
+public void createNewTask()  throws InterruptedException {
 		
-		/*ChromeOptions options = new ChromeOptions();
+		ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
 		
 		ChromeDriver driver = new ChromeDriver(options);
@@ -26,7 +27,7 @@ public  void createNewTask() throws InterruptedException {
 	//Step 1: Login to Sales-force Application
 		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
 		driver.findElement(By.id("password")).sendKeys("Leaf@123");
-		driver.findElement(By.id("Login")).click();*/
+		driver.findElement(By.id("Login")).click();
 	
 	
 	//Step 2: Click on toggle menu button from the left corner
@@ -36,8 +37,11 @@ public  void createNewTask() throws InterruptedException {
 				driver.findElement(By.xpath("//button[text()='View All']")).click();
 				
 				
-	//Step 4. Click on Content tab 				
-				driver.findElement(By.xpath("//p[text()='Content']")).click();
+	//Step 4. Click on Content tab 	
+				WebElement content = driver.findElement(By.xpath("//p[text()='Content']"));
+				driver.executeScript("arguments[0].click();", content);
+
+				
 				
 				Thread.sleep(2000);
 				
@@ -55,12 +59,16 @@ public  void createNewTask() throws InterruptedException {
 	//Step 9. Click on the image of Name field, click on Contacts and select Contact
 				driver.findElement(By.xpath("//a[@title='Contacts']")).click();
 				driver.findElement(By.xpath("//input[@title='Search Contacts']")).click();
-				driver.findElement(By.xpath("(//div[@class='listContent'])[2]//li")).click();
+				WebElement contact = driver.findElement(By.xpath("(//div[@class='listContent'])[2]//li"));
+				driver.executeScript("arguments[0].click();", contact);
+
 	//Step 10. Click on the image of Related To field, click on Product and Select Product
 				driver.findElement(By.xpath("//img[@alt='Accounts']")).click();
 				driver.findElement(By.xpath("//span[@title='Products']")).click();
 				driver.findElement(By.xpath("//input[@title='Search Products']")).click();
-				driver.findElement(By.xpath("(//div[@class=\"listContent\"])[3]//li")).click();
+				WebElement product = driver.findElement(By.xpath("(//div[@class='listContent'])[2]//li"));
+				driver.executeScript("arguments[0].click();", product);
+				
 	//Step 11. Set Priority as High and Click on Save
 				driver.findElement(By.xpath("//div[@data-target-selection-name='sfdc:RecordField.Task.Priority']//a")).click();
 				driver.findElement(By.xpath("//a[@title='High']")).click();
